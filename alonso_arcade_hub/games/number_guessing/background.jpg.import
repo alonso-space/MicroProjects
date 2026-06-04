@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bm0ivjomqsecd"
-path="res://.godot/imported/background.jpg-dd4ffea60d599ea6057e6528b8035f44.ctex"
+path="res://.godot/imported/background.jpg-37f551ef218749dc0fe0635322730129.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://games/number_guessing/images/background.jpg"
-dest_files=["res://.godot/imported/background.jpg-dd4ffea60d599ea6057e6528b8035f44.ctex"]
+source_file="res://games/number_guessing/background.jpg"
+dest_files=["res://.godot/imported/background.jpg-37f551ef218749dc0fe0635322730129.ctex"]
 
 [params]
 
