@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccmypg4cbp02w"
-path="res://.godot/imported/Estrella y Cuásar.jpg-b0fc6699a34498a4a1c9b529007f3326.ctex"
+uid="uid://b81lummiqx5pg"
+path="res://.godot/imported/preview.jpg-3b89c77567f9df7b25c3223cb70ff97d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://games/Estrella y Cuásar.jpg"
-dest_files=["res://.godot/imported/Estrella y Cuásar.jpg-b0fc6699a34498a4a1c9b529007f3326.ctex"]
+source_file="res://games/stroop_colors/preview.jpg"
+dest_files=["res://.godot/imported/preview.jpg-3b89c77567f9df7b25c3223cb70ff97d.ctex"]
 
 [params]
 
