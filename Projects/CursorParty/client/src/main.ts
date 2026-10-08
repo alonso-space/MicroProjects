@@ -3,7 +3,7 @@ import { Client, getStateCallbacks } from "@colyseus/sdk";
 
 class MainScene extends Phaser.Scene {
   async create() {
-    const client = new Client("ws://192.168.1.91:2567");
+    const client = new Client("ws://10.0.0.29:2567");
     const room = await client.joinOrCreate("my_room");
     const $ = getStateCallbacks(room);
 
