@@ -3,13 +3,6 @@
     --text-color: #fff;
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg-color: #fff;
-        --text-color: #000;
-    }
-}
-
 body {
     margin: 0;
 
@@ -47,6 +40,8 @@ body {
     width: 100px;
     height: 100px;
     font-size: 50px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 .Btn:hover {
@@ -73,4 +68,14 @@ body {
     width: 50px;
     height: 50px;
     font-size: 15px;
+}
+
+.BGpicker{
+    width: 150px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
 }
