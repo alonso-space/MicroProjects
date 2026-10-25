@@ -1,17 +1,57 @@
-# Godot 4+ specific ignores
+# --- Godot 4+ ---
 .godot/
 .nomedia
 
-# Godot-specific ignores
+# --- Godot (legado y exportación) ---
 .import/
 export.cfg
 export_credentials.cfg
 *.tmp
+# Salida de exportación web de browser_multiplayer
+export/
+# Zips generados a partir de docs/
+docs.zip
+# Plantillas y builds de Android
+android/
+*.apk
+*.aab
+# Firmas de Android: son secretos, nunca al repo
+*.keystore
+*.jks
 
-# Imported translations (automatically generated from CSV files)
+# Traducciones importadas (se generan solas desde los CSV)
 *.translation
 
-# Mono-specific ignores
+# --- Mono / C# ---
 .mono/
 data_*/
 mono_crash.*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node (CursorParty) ---
+node_modules/
+dist/
+build/
+*.local
+npm-debug.log*
+
+# --- Secretos y logs ---
+.env
+.env.*
+!.env.example
+*.log
+
+# --- Editores y sistema ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

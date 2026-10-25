@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i48gresvwotm"
-path="res://.godot/imported/Armita.icon.png-3988ffb3508c3c2764ec32fcdd39fc60.ctex"
+uid="uid://vhci3pq5yfyj"
+path="res://.godot/imported/Tankecitos.apple-touch-icon.png-efed5880201932e8089383faf5eeb3f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/Armita.icon.png"
-dest_files=["res://.godot/imported/Armita.icon.png-3988ffb3508c3c2764ec32fcdd39fc60.ctex"]
+source_file="res://docs/Tankecitos.apple-touch-icon.png"
+dest_files=["res://.godot/imported/Tankecitos.apple-touch-icon.png-efed5880201932e8089383faf5eeb3f1.ctex"]
 
 [params]
 

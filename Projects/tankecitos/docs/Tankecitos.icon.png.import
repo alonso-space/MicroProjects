@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0fm5dd3wda3i"
-path="res://.godot/imported/Armita.png-a77942961d9f32b0da0a2e22d7b93fa0.ctex"
+uid="uid://bba5thbrh4ugs"
+path="res://.godot/imported/Tankecitos.icon.png-89f6e33dfbc915c248e6edfdd4ab6924.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://docs/Armita.png"
-dest_files=["res://.godot/imported/Armita.png-a77942961d9f32b0da0a2e22d7b93fa0.ctex"]
+source_file="res://docs/Tankecitos.icon.png"
+dest_files=["res://.godot/imported/Tankecitos.icon.png-89f6e33dfbc915c248e6edfdd4ab6924.ctex"]
 
 [params]
 
