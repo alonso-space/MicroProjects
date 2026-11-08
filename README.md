@@ -1,2 +1,2 @@
-# Alonso_Arcade_Hub
+# MicroProjects
 A personal repository of micro projects
