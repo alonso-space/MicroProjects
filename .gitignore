@@ -1,33 +1,30 @@
-# --- Godot 4+ ---
-.godot/
-.nomedia
-
-# --- Godot (legado y exportación) ---
-.import/
-export.cfg
+# Secretos
+.env
+.env.*
+!.env.example
 export_credentials.cfg
-*.tmp
-# Salida de exportación web de browser_multiplayer
-export/
-# Zips generados a partir de docs/
-docs.zip
-# Plantillas y builds de Android
-android/
-*.apk
-*.aab
-# Firmas de Android: son secretos, nunca al repo
 *.keystore
 *.jks
 
-# Traducciones importadas (se generan solas desde los CSV)
+# Godot
+.godot/
+.nomedia
 *.translation
+export/
+.import/
+export.cfg
 
-# --- Mono / C# ---
+# Android
+android/
+*.apk
+*.aab
+
+# Mono / C#
 .mono/
 data_*/
 mono_crash.*.json
 
-# --- Python ---
+# Python
 __pycache__/
 *.py[cod]
 venv/
@@ -36,22 +33,24 @@ venv/
 .mypy_cache/
 .ruff_cache/
 
-# --- Node (CursorParty) ---
+# Node
 node_modules/
 dist/
 build/
 *.local
 npm-debug.log*
 
-# --- Secretos y logs ---
-.env
-.env.*
-!.env.example
+# Logs y temporales
 *.log
+*.tmp
 
-# --- Editores y sistema ---
+# Editores y sistema
 .vscode/
 .idea/
 *.swp
 .DS_Store
 Thumbs.db
+
+# Comprimidos y docs
+*.zip
+docs/
