@@ -53,4 +53,5 @@ Thumbs.db
 
 # Comprimidos y docs
 *.zip
+!**/pyodide/*.zip
 docs/
