@@ -1,0 +1,14 @@
+# Carpeta de compilación de Maven
+target/
+
+# Archivos de IDEs
+*.iml
+.idea/
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
